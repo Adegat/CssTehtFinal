@@ -13,51 +13,59 @@ html, body {
 
 }
 .latinat{
+    z-index: 5;
     background-color: rgba(113, 255, 12, 0.58);
     color: white;
     padding: 14px 25px;
     text-align: center;
-    font-size: 900%;
-    border-radius: 15%;
+    font-size: 3vw;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
     height: auto;
     width: 35%;
 }
 
 .linkit{
-    padding-top: 12%;
     height: 100%;
     width: 100%;
     float: left;
 }
 #graf{
     float: left;
-    width: 100%;
+    width: 35%;
     height: auto;
+    overflow: hidden;
 }
+#Cinema{
+     float: left;
+     object-position: -1360% 50%;
+     height: 73%;
+     width: 211%;
+    z-index: -5;
+ }
 #credits{
     background-color: rgba(113, 255, 12, 0.58);
     color: white;
-    padding: 1%;
+    border-color: indigo;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1500%;
-    border-radius: 15%;
+    font-size: 3vw;
+    border-bottom-right-radius: 50%;
     height: 20%;
-    width: auto;
-}
-#Cinema{
-    height: auto;
     width: 100%;
 }
+
 #kolmasSarake{
     float: left;
     height: auto;
-    width: 35%;
+    width: 46%;
+    z-index: 5;
 }
 #vitsi{
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 90%;
+    min-height: 90%;
+    z-index: 5;
 }
 #myVideo {
     position: fixed;
