@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:#F5F6F8;
+}
+.space{
+
+    width:100%;
+    height: -webkit-fill-available;
+    position: relative;
+    overflow: hidden;
+    background-image: url(img/moon-and-earth.jpg);
+    background-size: cover;
+    z-index: -100;
+}
+.lentomassina{
+    background-image: url(img/Space-Shuttle.png);
+    background-size: cover;
+    z-index: 3;
+    position: absolute;
+    top: 32%;
+    left: 17%;
+    width:500px;
+    height: 496px;
+}
+.avaruusmies{
+    background-image: url(img/Astronauts%20-%201772x1772.png);
+    background-size: cover;
+    z-index: 4;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width:225px;
+    height: 211px;
+}
+#mouse, #mouse-center {
+    color: aliceblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 10px;
+    height: 20%;
+    width: 20%;
+    z-index: 50;
+}

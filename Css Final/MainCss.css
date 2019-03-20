@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+.sarastukset{
+    text-align: center;
+    display: flex;
+
+
+}
+.latinat{
+    background-color: rgba(113, 255, 12, 0.58);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    font-size: 900%;
+    border-radius: 15%;
+    height: auto;
+    width: 35%;
+}
+
+.linkit{
+    padding-top: 12%;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+#graf{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+#credits{
+    background-color: rgba(113, 255, 12, 0.58);
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1500%;
+    border-radius: 15%;
+    height: 20%;
+    width: auto;
+}
+#Cinema{
+    height: auto;
+    width: 100%;
+}
+#kolmasSarake{
+    float: left;
+    height: auto;
+    width: 35%;
+}
+#vitsi{
+    min-width: 100%;
+    min-height: 100%;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -20;
+}
