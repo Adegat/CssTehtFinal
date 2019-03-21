@@ -18,9 +18,8 @@ html, body {
     color: white;
     padding: 14px 25px;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
     border-bottom-left-radius: 7%;
-    border-bottom-right-radius: 7%;
     height: auto;
     width: 35%;
 }
@@ -38,21 +37,20 @@ html, body {
 }
 #Cinema{
      float: left;
-     object-position: -1360% 50%;
+     object-position: -625% 126%;
      height: 73%;
-     width: 211%;
+     width: 184%;
     z-index: -5;
  }
 #credits{
     background-color: rgba(113, 255, 12, 0.58);
     color: white;
-    border-color: indigo;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 3vw;
     border-bottom-right-radius: 50%;
-    height: 20%;
+    height: 27%;
     width: 100%;
 }
 
